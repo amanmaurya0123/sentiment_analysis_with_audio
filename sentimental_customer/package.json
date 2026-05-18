@@ -1,0 +1,10 @@
+{
+  "name": "sentimental_customer",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"python,server,client\" -c \"green,cyan,magenta\" \"npm run dev --prefix sentiment-service\" \"npm run dev --prefix server\" \"npm run dev --prefix my-app\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

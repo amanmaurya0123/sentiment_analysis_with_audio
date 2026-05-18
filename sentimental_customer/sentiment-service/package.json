@@ -1,0 +1,6 @@
+{
+  "name": "sentiment-service",
+  "scripts": {
+    "dev": ".venv\\Scripts\\python app.py"
+  }
+}

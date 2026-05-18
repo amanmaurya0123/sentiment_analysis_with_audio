@@ -1,0 +1,21 @@
+Sample Sentiment Analysis Test Data
+Positive Sentences
+• I really enjoyed using this application.
+• The customer support team was very helpful and responsive.
+• This project works perfectly and saves a lot of time.
+Negative Sentences
+• The application crashes frequently and feels unstable.
+• I am disappointed with the response time.
+• The user interface is confusing and difficult to use.
+Neutral Sentences
+• The meeting is scheduled for tomorrow at 10 AM.
+• The report contains five pages of analysis.
+• The document was uploaded successfully.
+Emoji and Sarcasm
+• Amazing service I
+• Great, another bug in production I
+• Wow I this feature totally works as expected.
+Tricky Sentences
+• The product is not bad at all.
+• I expected better, but it is okay for now.
+• The experience was surprisingly decent despite the issues.

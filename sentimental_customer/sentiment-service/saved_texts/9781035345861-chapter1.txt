@@ -1,0 +1,736 @@
+1
+1.	 Artificial Intelligence: Definition, 
+Origin and Evolution
+1.1	
+DEFINITION OF ARTIFICIAL INTELLIGENCE
+Artificial intelligence (AI), also but rarely known as computational intelli­
+gence, is intelligence displayed by computers and other machines, as opposed 
+to the natural intelligence displayed by humans and animals. AI has attracted 
+the interest of intelligent humans for hundreds of years, long before the 1950s 
+when Alan Turing, a British mathematician and computer scientist, wondered 
+if machines could think like humans. Interest in AI pre-dates the coining in 
+the 1950s of the term “artificial intelligence” by John McCarthy, an American 
+computer and cognitive scientist. Since the second half of the twentieth cen­
+tury, human intelligence has been able to create artificial intelligence in the 
+form of machines that can learn and apply learning in ways that only humans 
+could do, or so it was believed.
+Today, we interact with AI through social media, online shopping, and search 
+engines. We see AI in action every day, even though most users do not realise 
+that they are using and interacting with AI. AI can be seen in, among others, dig­
+ital assistants (Siri, Alexa, etc.), self-driving cars, navigation apps, social media 
+algorithms, targeted advertisements, search engines, text editing, and gaming. 
+Businesses use AI for a variety of purposes, including the automation of routine 
+and repetitive tasks, fraud detection, and for obtaining valuable insights from 
+the analysis of massive data sets, not to mention customer service, marketing, 
+finance, and operations. In short, AI has become an integral part of our lives, 
+whether we realise that or not, and this is why people have been increasingly 
+searching for the meaning of AI by looking for a definition or description of AI. 
+Figure 1.1 displays an index of Google searches for “artificial intelligence” rela­
+tive to the peak of 100, which was reached in May 2023.
+Even though AI has become rather ubiquitous, it is not easy to define because 
+of its interdisciplinary and multifaceted nature and the diversity of its applica­
+tions. In essence, however, AI refers to the ability of machines to perform tasks 
+that typically require human intelligence, ranging from simple data analysis 
+to decision-making in complex situations. An alternative term for artificial 
+intelligence is “non-human intelligence,” a notion that can be traced back to 
+ 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+2
+Greek philosophers. Sometimes, the term “human-like intelligence” is used 
+to describe how machines can acquire and use human-like abilities such as 
+deductive reasoning, inductive reasoning, mathematical reasoning, oral/writ­
+ten comprehension, and oral/written expression (for example, Korteling et al., 
+2021; Fleishman and Quaintance, 1984).
+Before defining AI, perhaps it is useful to understand the meaning of the 
+words “artificial” and “intelligence.” According to Dictionary​.co​m, the word 
+“artificial” means “made by human skill” or “produced by humans”. The 
+word “intelligence” means “the capacity, especially of a particular person or 
+animal, for learning, reasoning, understanding and similar forms of mental 
+activity.” By combining the two words, artificial intelligence has two defini­
+tions in Dictionary​.co​m. The first is that AI is “the capacity of a computer, 
+robot, programmed device, or software application to perform operations and 
+tasks analogous to learning and decision making in humans, such as speech 
+recognition and question answering.” The second definition is “the branch of 
+computer science involved with the design of computers, robots, programmed 
+Data source: Google Trends.
+Figure 1.1    An index of the frequency of Google searches for “artificial 
+intelligence” 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+3
+devices and software applications having the capacity to imitate human intel­
+ligence and thought.”
+Let us go back to the definition of intelligence on its own. Intelligence is 
+defined by Manning (2020) as “the ability to learn and perform suitable tech­
+niques to solve problems and achieve goals, appropriate to the context in an 
+uncertain, ever-varying world.” It follows that intelligence encompasses the 
+abilities to (i) solve problems, (ii) use knowledge to devise novel solutions to 
+problems, (iii) learn something and improve upon it, and (iv) make a decision. 
+Michael Bennett (2024) lists the terms used to describe human intelligence as 
+smartness, understanding, brainpower, ability to reason, sharpness, and wis­
+dom. However, he argues that “hundreds of definitions have been created, but 
+for much of that time, intelligence has meant a biopsychological capacity to 
+acquire and apply knowledge and skills.”
+The pioneers of AI have come up with various definitions of intelligence. 
+McCarthy (2007) proposed the definition that “intelligence is the computa­
+tional part of the ability to achieve goals in the world,” suggesting that “vary­
+ing kinds and degrees of intelligence occur in people, many animals and some 
+machines.” For Newell (1990), an intelligent system “operates in real-time; 
+exploits vast amounts of knowledge; tolerates erroneous, unexpected and pos­
+sibly unknown inputs; uses symbols and abstractions; communicates using 
+some form of natural language; learns from the environment; and exhibits 
+adaptive goal-oriented behaviour.” Kurzweil (1990) argues that “there appears 
+to be no simple definition of intelligence that is satisfactory to most observers, 
+and most would-be definers of intelligence end up with long checklists of its 
+attributes.”
+Perhaps one way to understand artificial intelligence is to compare it with 
+human intelligence. While human intelligence requires the use of the brain, 
+memory, and cognitive abilities, AI relies on the data provided by humans. The 
+two kinds of intelligence differ in many respects. In terms of processing, AI is 
+based on algorithms and mathematical models provided by humans, whereas 
+human intelligence is based on cognitive processes and biological structures. 
+In terms of learning, AI is based on data and feedback loops, whereas human 
+intelligence is based on experience, intuition, and creativity. They also differ 
+in terms of the speed of executing tasks because AI can process data and per­
+form tasks much more quickly than the most intelligent humans can, but this 
+does not make machines better than humans because humans can make com­
+plex decisions quickly. In terms of emotions, machines are devoid of emotions 
+and empathy, whereas humans are capable of feeling emotions and empathy. 
+Likewise, machines have no moral code or conscience, whereas humans (albeit 
+not all of them) are guided by a moral code and conscience when they make 
+decisions. In terms of creativity, machines have a limited ability to be creative 
+or think “outside of the box,” whereas humans can be creative, imaginative, 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+4
+and innovative. Last but not least, machines (unlike humans) are not exposed 
+to physical limitations and can operate continuously, subject to maintenance. 
+Humans, on the other hand, have limited physical capabilities and require rest. 
+Unlike humans, machines do not mix business with pleasure.
+John McCarthy, the computer scientist who coined the term “artificial intel­
+ligence,” defined AI very simply as “the science and engineering of making 
+intelligent machines” (Manning, 2020). A slightly more modern definition of 
+AI is that it is a “broad branch of computer science concerned with creating 
+machines that can learn, make decisions, and perform tasks to a human-like 
+level” (Tableu, 2024). Otherwise, it is defined as a “specialty within computer 
+science that is concerned with creating systems that can replicate human intel­
+ligence and problem-solving abilities.” IBM (2024) defines AI as “technology 
+that enables computers and machines to simulate human intelligence and prob­
+lem-solving capabilities.” Russell and Norvig (2021) define AI as a “field of 
+research in computer science that develops and studies methods and software 
+which enable machines to perceive their environment and uses learning and 
+intelligence to take actions that maximize their chances of achieving defined 
+goals.”
+AI may be defined in terms of the ability of AI systems to think or act like 
+humans or rationally. Bellman (1978) defines AI as “the automation of activi­
+ties associated with human thinking, which include decision making, problem 
+solving, and learning.” This is a description of systems that think like humans. 
+A definition that describes systems that think rationally is that AI is “the 
+study of the computations that make it possible to perceive, reason, and act” 
+(Winston, 1992). Kurzweil (1990) defines AI as “the art of creating machines 
+that perform functions that require intelligence when performed by people,” 
+which is a description of systems that act like humans. Luger and Stubblefield 
+(1993) define AI, in terms of systems that act rationally, as the “branch of com­
+puter science that is concerned with the automation of intelligent behaviour.”
+A question that remains is the following: what is in a definition that moti­
+vates the desire to find a definition for AI? For example, is it informative to 
+define a car as “an entity that is used to move people and goods from one place 
+to another, propelled by an internal combustion engine that derives power 
+from liquid fuel according to the laws of thermodynamics”? Is it informative 
+to define water as a “chemical compound with a molecule that consists of two 
+atoms of hydrogen and one atom of oxygen”? In both cases, the answer should 
+be in the negative because we recognise cars and water when we see them. 
+Even though AI is more opaque than cars and water, a definition of AI is not 
+informative as long as we know that AI is about teaching machines how to 
+think and operate like humans.
+Rather than trying to understand what AI is by looking at various defini­
+tions, one can do that by observing a robot tasked with welding car parts on a 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+5
+conveyor belt in a car factory, or a robot that beats chess grandmasters at their 
+own game. If a layperson asks what artificial intelligence is, a good answer 
+would be that it is the human endeavour that has created the annoying machine 
+that talks to you when you call your bank, expecting to talk to a human being. 
+It is also the human endeavour that has created the Google search engine, 
+which takes a few seconds to give you thousands of results when you type 
+“artificial intelligence.” This is the same product of AI that has significantly 
+reduced the time it takes to write a book like this one, without having to visit a 
+physical library. It follows that the statement “there has yet to be a universally 
+accepted technical or legal definition of AI” is an unnecessary dramatisation 
+of a trivial matter.
+1.2	
+EVOLUTION OF AI: THE ORIGIN
+The modern conception of AI emerged in the 1950s as a result of significant 
+advancements in computing technology, as well as logic and mathematics. 
+However, the origin of AI can be traced back to ancient inventors and thinkers 
+who contemplated the possibility of creating artificial beings that have human-
+like abilities. Furthermore, without the groundwork that began in the early 
+1900s, it would not have been possible for early AI experts to come up with 
+their innovative work in the 1950s. In this section, we examine the pre-1900 
+period.
+The notion of AI goes back thousands of years to the times when ancient 
+philosophers considered questions of life and death. Human history pro­
+vides abundant stories about ancient inventors who produced mechanical 
+devices that moved without human intervention. According to Encyclopaedia 
+Britannica (2024), an automaton is “any of various mechanical objects that 
+are relatively self-operating after they have been set in motion.” The term is 
+also applied to a “class of electromechanical devices that transform informa­
+tion from one form into another on the basis of predetermined instructions or 
+procedures.” Andrews (2023) describes seven early robots and automatons, 
+which include the sixteenth-century mechanical monk, Al-Jazari’s floating 
+orchestra, Archytas’ Dove, the silver swan, Jaquet-Droz’s three automatons, 
+Vaucanson’s duck, and Da Vinci’s knight. Encyclopaedia Britannica (2024) 
+refers to the wooden pigeon of Archytas, who was a friend of Plato, as “among 
+the earliest references” to an automaton and notes that more complete informa­
+tion about similar devices can be found in the writings of Heron of Alexandria 
+(first century CE), who described devices propelled by water, falling weights, 
+and steam.
+Even in the Middle Ages of Western Europe (the period extending between 
+the collapse of the Roman Empire in the fifth century CE and the period of the 
+Renaissance), automatons were created by the likes of Roger Bacon (a medieval 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+6
+English philosopher who was interested in experimental science) and Albertus 
+Magnus (a German thinker who established the study of nature as a legitimate 
+science within the Christian tradition). Both Bacon and Magnus are credited 
+with constructing androids (humanoid robots or other artificial beings, typi­
+cally made from a flesh-like material). More specifically, Bacon invented a 
+talking head, whereas Magnus constructed an iron man. The French Gothic 
+architect Villard de Honnecourt compiled a sketchbook in which he illustrated 
+decorative mechanical objects for churches.
+Renewed interest in the production of automatons emerged in the early six­
+teenth century, largely stemming from the influence of Eastern inventions, 
+which arrived in Europe through trade with the Orient. Also influential was 
+the translation from ancient Greek of the writings of Heron of Alexandria on 
+mechanical objects. In the mid-fifteenth century, the use of coiled tempered-
+steel springs as a portable source of motion became widespread. It was used, 
+for instance, to make table ornaments in the form of sailing ships. Among the 
+more elaborate mechanical devices that became popular in the eighteenth cen­
+tury were mechanical pictures, in which windmills and other features sprang 
+to life by means of hidden clockwork. In 1813, the Rochat brothers, who manu­
+factured miniature singing birds, decided to open their own shop in Geneva, 
+where they assembled their birds and shipped them to London (the centre of 
+finance and commerce at that time) to be exported to the rest of the world. 
+With the exception of a few works of Peter Carl Fabergé (a Russian goldsmith 
+and jeweller who is best known for his Fabergé eggs), the production of costly 
+artistic automatons virtually came to an end in the late nineteenth century and 
+early twentieth century because of the near extinction of skilled craftsmen and 
+the rich patrons who supported them.
+1.3	
+EVOLUTION OF AI: GROUNDWORK (1900–1950)
+The word “robot” emerged in the 1920s, not as a result of the work of a math­
+ematician, engineer, or inventor, but rather out of the work of a Czech play­
+wright who, in 1921, released the science fiction play “Rossum’s Universal 
+Robots.” The play introduced the notion of “artificial people,” which he called 
+“robots”—that was the first known use of the word. The story, according to the 
+English translation of the play, goes as follows (Capek, 2019):
+The play is set on an island somewhere on our planet, and on this island is the cen­
+tral office of the factory of Rossum’s Universal Robots. “Robot” is a Czech word 
+meaning “worker.” When the play opens, a few decades beyond the present day, the 
+factory has already turned out, following a secret formula, hundreds of thousands, 
+and even millions, of manufactured workmen, living automatons, without souls, 
+desires, or feelings. They are high-powered laborers, good for nothing but work. 
+There are two grades, the unskilled and the skilled, and specially trained workmen 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+7
+are furnished on request…. The rest of the play is magnificent melodrama, superbly 
+portrayed, with the handful of human beings at bay while the unseen myriads of 
+their own robots close in on them. The final scene is like Dunsany on a mammoth 
+scale… Then comes the epilogue, in which Alquist, the company’s builder, is not 
+only the only human being on the island, but also the only one left on earth. The 
+robots have destroyed the rest of mankind.
+In 1929, a Japanese biologist, who was alarmed by Capek’s play, built the 
+first Japanese robot, Gakutensoku, which means “learning from the rules of 
+nature.” In an article published in the Osaka Mainichi newspaper, Makoto 
+Nishimura (1883–1956) said that he was concerned because Capek’s play 
+convincingly portrayed “the emergence of a perverse world in which humans 
+become subordinate to artificial humans” (Frumer, 2020). Nishimura believed 
+that the character of artificial humans was determined by the intentions of 
+their creators. He also believed that if humanoids were intended to be slave 
+workers, taking orders from their human masters, this situation would inevi­
+tably lead to the emergence of an “exploited underclass that was bound to 
+rebel,” which is exactly what happened in the play. As a result, Nishimura 
+was apprehensive about a dystopian scenario that he described as humanity 
+“destroyed by the pinnacle of its creation.” In response, he envisaged a uto­
+pian scenario by creating a conscientious, altruistic, and empathetic artificial 
+human, a robot that was not a slave but a friend and a partner, even a role 
+model. In 1926, Nishimura resigned his position as a professor at Hokkaido 
+Imperial University, moved to Osaka, and devoted his time to the building of 
+his ideal artificial human.
+In 1949, Edmund Berkley, a computer scientist, published a book, Giant 
+Brains, or Machines That Think, in which he compared the newer models 
+of computers to human brains. In his description of the book, Berkley (1949) 
+opined the following:
+The subject of this book is a type of machine that comes closer to being a brain 
+that thinks than any machine ever did before 1940. These new machines are called 
+sometimes mechanical brains and sometimes sequence-controlled calculators and 
+sometimes by other names. Essentially, though, they are machines that can handle 
+information with great skill and great speed. And that power is very similar to the 
+power of a brain.
+Berkley envisaged the characteristics of the new machines that make them 
+important: (i) they do the work of hundreds of humans for the wages of a 
+dozen; (ii) they are powerful tools for the endeavour to obtain new knowledge; 
+(iii) they can be used in science, business, government, and other activities; 
+and (iv) the harder the underlying problem, the more useful these machines 
+become. Two of these points pertain to the economics of AI, which is the 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+8
+subject matter of this book. The first is that a profit-maximising firm can cut 
+costs by employing machines rather than humans, which is one of the main 
+issues discussed in this book and arguably the most adverse consequence of 
+AI. The second is that these machines can be used across the economy in a 
+wide range of applications, as we are going to see in Chapter 3.
+1.4	
+EVOLUTION: BIRTH, EARLY DEVELOPMENT AND 
+SETBACK (1950–1979)
+The birth of AI is believed to have taken place during the period 1950–56. This 
+period witnessed the publication of Alan Turing’s influential book Computer 
+Machinery and Intelligence (Turing, 1950), as well as the emergence of the 
+term “artificial intelligence.” The same period also witnessed the development 
+of symbolic AI systems, which relied on rule-based reasoning and symbolic 
+manipulation of data. Researchers (such as John McCarthy, Marvin Minsky, 
+and Herbert Simon) pioneered this approach to the building of machines that 
+can indulge in logical reasoning and perform problem solving. Symbolic AI 
+relies on explicit, human-readable symbols to represent knowledge and infor­
+mation, enabling logical manipulation and reasoning.
+In the 1950s, Alan Turing laid the theoretical groundwork for computational 
+thinking and machine intelligence, which made him influential in the develop­
+ment of theoretical computer science and a founder of AI. Turing (1950) raised 
+the question of whether or not machines can think. He started by defining the 
+terms “machine” and “think,” which he explained as follows:
+I PROPOSE to consider the question, ‘Can machines think?’ This should begin 
+with definitions of the meaning of the terms ‘machine’ and ‘think’. The definitions 
+might be framed so as to reflect so far as possible the normal use of the words, but 
+this attitude is dangerous. If the meaning of the words ‘machine’ and ‘think’ are 
+to be found by examining how they are commonly used it is difficult to escape the 
+conclusion that the meaning and the answer to the question, ‘Can machines think?’ 
+is to be sought in a statistical survey such as a Gallup poll. But this is absurd. 
+Instead of attempting such a definition I shall replace the question by another, 
+which is closely related to it and is expressed in relatively unambiguous words.
+Accordingly, he suggested that the new form of the problem could be described 
+in terms of a game that he called the “imitation game,” eventually formulating 
+the “Turing Test,” whereby a human interrogator tries to distinguish between 
+the text responses generated by computers and humans. The Turing Test is 
+used to determine whether or not a machine can demonstrate human intelli­
+gence, which happens if it can engage in a conversation with a human without 
+being detected as a machine.
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+9
+In 1952, a computer scientist named Arthur Samuel developed a program 
+to play checkers, which was the first ever to learn the game independently. 
+According to Knopp (2023), Samuel’s “groundbreaking checkers program, 
+developed in the early days of AI (on an IBM 701 computer), played a pivotal 
+role in advancing the field of AI.” The program involved one of the very first 
+examples of non-numerical computation (early computers were intended and 
+designed primarily for number crunching). Samuel went on to popularise the 
+term “machine learning” as his checkers program highlighted the potential 
+of algorithms to learn and improve through experience. He investigated two 
+machine-learning procedures by using checkers, reaching the conclusion that 
+“enough work has been done to verify the fact that a computer can be pro­
+grammed so that it will learn to play a better game of checkers than can be 
+played by the person who wrote the program,” adding that “the principles of 
+machine learning verified by these experiments are, of course, applicable to 
+many other situations’ (Samuel, 1959).
+In the summer of 1956, John McCarthy, Marvin Minsky, Nathaniel 
+Rochester, and Claude Shannon coined the term “artificial intelligence” in a 
+proposal that they wrote to call for the convening of the famous Dartmouth 
+Conference, which was held at Dartmouth College (McCarthy et al., 1955). 
+The proposal started with the following introduction:
+We propose that a 2 month, 10 man study of artificial intelligence be carried out 
+during the summer of 1956 at Dartmouth College….The study is to proceed on the 
+basis of the conjecture that every aspect of learning or any other feature of intel­
+ligence can in principle be so precisely described that a machine can be made to 
+simulate it. An attempt will be made to find how to make machines use language, 
+form abstractions and concepts, solve kinds of problems now reserved for humans.
+The Dartmouth Conference, held in Hanover (New Hampshire), brought 
+together the intellectual power of those who were passionate about the emer­
+gent idea of designing intelligent machines. One of the pivotal outcomes of 
+the conference was the conceptual exploration of AI, touching upon neural 
+networks, theories of the human brain, machine self-improvement, abstrac­
+tion, and creativity. The conference paved the way for a number of AI break­
+throughs in subsequent years.
+In 1956, Allen Newell, Cliff Shaw, and Herbert Simon were working at the 
+Rand Corporation in Santa Monica, California, where they created the Logic 
+Theorist (LT), which was the first program designed to perform automated 
+reasoning. It has been described as “the first artificial intelligence program” 
+because of its ability to mimic the problem-solving skills of a human being (for 
+example, McCorduck, 2004). The Rand Corporation team used the program 
+for proving theorems found in Principia Mathematica, a three-volume book 
+on the foundations of mathematics that was originally published in 1910–1913 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+10
+(Whitehead and Russell, 1963). Simon (1998) described Logic Theorist and 
+the reason for using Principia Mathematica as follows:
+LT was based on the system of Principia Mathematica, largely because a copy of 
+that work happened to sit in my bookshelf. There was no intention of making a con­
+tribution to symbolic logic, and the system of Principia was sufficiently outmoded 
+by that time as to be inappropriate for that purpose. For us, the important considera­
+tion was not the precise task, but its suitability for demonstrating that a computer 
+could discover problem solutions in a complex nonnumerical domain by heuristic 
+search that used humanoid heuristics.
+The period from the late 1950s through the 1960s witnessed the invention 
+of programming languages that are still in use, as well as the publication of 
+books and screening of movies that explored the notion of robots, making AI 
+a mainstream idea. In 1958, John McCarthy created List Processing (LISP) 
+as the first programming language used for AI research, which is in popular 
+use to this day. LISP became a common language for AI programming, partly 
+because of the confluence of LISP and AI work at MIT and partly because 
+AI programs that are capable of “learning” could be written in LISP (see, for 
+example, Hemmendinger, 2024).
+The 1960s started with the introduction in 1961 of the first industrial robot 
+that was put to work on an assembly line in General Motors factories, designed 
+specifically to do jobs deemed too dangerous for humans. In 1965, Edward 
+Feigenbaum and Joshua Lederberg created the first “expert system,” which 
+was a form of AI programmed to replicate the thinking and decision-making 
+abilities of human experts. The system, called DENDRAL, was designed to 
+carry out chemical analysis to help chemists identify unknown organic mol­
+ecules. In 1966, Joseph Weizenbaum invented the first chatbot that used natu­
+ral language processing (NLP) to converse with humans. In that same year, a 
+Soviet mathematician, Alexey Ivakhnenko, proposed a new approach to AI 
+that would later become known as “deep learning.”
+The development of AI witnessed a setback in the 1970s. In 1973, a British 
+applied mathematician named James Lighthill submitted a report to the British 
+Science Council, known as the Lighthill Report, in which he presented a very 
+pessimistic outlook for research on AI, stating that “in no part of the field 
+have the discoveries made so far produced the major impact that was then 
+promised” (Lighthill, 1973). Lighthill claimed that AI researchers had failed 
+to address the issue of combinatorial explosion when solving problems within 
+real-world domains. He also suggested that AI techniques may work within 
+the scope of small problem domains, but the techniques are inadequate for 
+solving more realistic problems (see, for example, Howe, 2007; Russell and 
+Norvig, 2021). In 1979, however, the Stanford Cart became an early example 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+11
+of an autonomous vehicle when it navigated successfully, and without human 
+interference, a room full of chairs (see, for example, Earnest, 2012).
+1.5	
+EVOLUTION: BOOM FOLLOWED BY SLUMP 
+(1980–1992)
+The 1980s saw a shift towards machine learning techniques, intended to ena­
+ble computers to learn from data and make predictions without explicit pro­
+gramming. This period witnessed the emergence of algorithms such as neural 
+networks, decision trees, and genetic algorithms, laying the groundwork for 
+modern AI applications. The 1980s also witnessed rapid growth and rising 
+interest in AI as a result of some notable breakthroughs and the expansion of 
+government funding to support AI research. Deep learning and expert sys­
+tems allowed computers to learn from their mistakes and make independent 
+decisions.
+Expert systems are computer systems that can emulate the decision-making 
+abilities of humans. In 1980, the first commercial expert system, XCON, was 
+launched, allowing customers to order computer systems automatically and 
+validate the technical configurability of their orders. The system also provided 
+guidance on the assembly of the hardware. Further developments include the 
+advent of the autonomous drawing program, AARON, which is described by 
+Garcia (2016) as “one of the longest-running, continually maintained AI sys­
+tems in history.” In 1986, Ernst Dickmann demonstrated the first driverless 
+car. And in 1987, Alacrity became the first managerial advisory system that 
+was available commercially (see, for example, Cook and Sterling, 1989).
+In 1984, the Association for the Advancement of Artificial Intelligence 
+(AAAI) warned of a looming “AI Winter,” predicting that the funding of and 
+interest in AI would diminish, which would hamper research. The reason for 
+the loss of interest by the private sector, and also the public sector, was the per­
+ceived high cost-to-return ratio, which was a sign of the end of a hype cycle (see 
+Chapter 8). Schuchmann (2019) thinks that the 1980s AI Winter came in 1988, 
+but he calls it the second AI Winter, following the first AI Winter of 1973. In 
+1987, the market for LISP-based hardware collapsed owing to the emergence 
+of cheaper and more accessible competitors that could run LISP software, 
+including those offered by IBM and Apple. The shift in market conditions 
+led to the failure of many specialised LISP companies. Computers made by 
+Apple and IBM became more powerful than LISP machines and other expert 
+systems, which were expensive to maintain. Still, the year 1988 witnessed the 
+invention of a chatbot called Jabberwacky, which was capable of conducting 
+conversations with humans. Jabberwacky’s new version, Cleverbot, performed 
+so well in convincing humans that they were not talking to a machine that it 
+passed the Turing Test spectacularly (see, for example, Dey, 2019).
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+12
+1.6	
+EVOLUTION: RESURGENCE FOLLOWED BY 
+EXPLOSION (1993–PRESENT)
+The early 1990s witnessed significant leaps in AI research, including the intro­
+duction of the first AI system that could beat a reigning world champion in his 
+own game (chess). In 1997, a computer system developed by IBM, Deep Blue, 
+managed to beat the world chess champion, Garry Kasparov, in a highly-pub­
+licised match. Around the same time, Windows released speech recognition 
+software (developed by Dragon Systems). Several inventions followed: Kismet, 
+the robot that could simulate human emotions (2000), Roomba the vacuum 
+cleaner (2002), Watson the Jeopardy winner (2011), and Siri the virtual assis­
+tant (2011).
+An explosion in AI products has been witnessed since 2012, particularly the 
+growth of applications utilising deep learning and big data (data sets that are 
+too large or complex to be dealt with by traditional data-processing software). 
+Unfortunately, one of these applications is AI-driven autonomous weapons 
+(something like robots with machine guns deciding independently whom to 
+shoot). This application became a new item on the wish list of generals, the 
+military-industrial complex, and war-mongering politicians. In response, over 
+1,000 high-profile AI experts and leading researchers (including Elon Musk, 
+Stephen Hawking, and Steve Wozniak) signed an open letter in 2015 warning 
+of a “military artificial intelligence arms race” and calling for a ban on “offen­
+sive autonomous weapons.” The letter, presented at the International Joint 
+Conference on Artificial Intelligence in Buenos Aires, described autonomous 
+weapons as the “third revolution in warfare, after gunpowder and nuclear 
+arms” (Gibbs, 2015).
+However, the peaceful, welfare-enhancing AI devices kept on coming. Even 
+though generative AI (which can be used to create new content, including 
+audio, code, images, text, and videos) was introduced in the 1960s in chatbots, 
+it was not until 2014, with the introduction of generative adversarial networks 
+(GANs), that generative AI became capable of creating authentic images, vid­
+eos, and audio of real people. In 2016, Sophia was created as the first “robot 
+citizen” with a realistic human appearance and the ability to replicate and 
+exhibit emotions. In 2017, Facebook programmed two AI chatbots to converse 
+and learn how to negotiate. In 2020, OpenAI embarked on testing Generative 
+Pre-trained Transformers (GPTs), starting with GPT-3, a model that was the 
+first to create content almost indistinguishable from what can be produced 
+by humans in their fields of expertise. In 2021, OpenAI developed DALL-E, 
+which can process and understand images to the extent that it can produce 
+accurate captions. Following its release in November 2022, ChatGPT reached 
+over a million users in five days and 100 million users within two months, 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+13
+making it the fastest-growing consumer app ever at the time (see, for example, 
+Bianchi, 2024).
+Following GPT-3, GPT-4 was released in March 2023, with enhanced abili­
+ties to write essays and articles and create art and music. GPT-5, which was 
+released in September 2024, is significantly more advanced than its predeces­
+sor because of its ability to process and generate not just text, but also speech, 
+images, code, and videos. Because it is so advanced, GPT-5 represents a sig­
+nificant step towards artificial general intelligence (AGI), a form of AI that 
+surpasses human intelligence. Sravanthi (2024) notes that “while ChatGPT-5 
+is not an AGI system itself, it exhibits characteristics that align with the goals 
+of AGI research.”
+On 15 February 2024, OpenAI announced the release of Sora, an AI model 
+that can create realistic and imaginative scenes from text instructions. On 22 
+February 2024, StabilityAI announced the introduction of Stable Diffusion 3, 
+a text-to-image open model based on a similar architecture to Sora. Other GPT 
+models have been developed by companies other than OpenAI. For example, 
+EleutherAI has created a series of GPT foundation models, while Cerebras has 
+developed seven models. Furthermore, companies across various industries 
+have developed GPT models tailored to their specific needs. Examples include 
+Salesforce’s EinsteinGPT for customer relationship management (CRM) and 
+Bloomberg’s BloombergGPT for finance. By the time this book is published 
+(sometime in 2025), new marvellous AI inventions will have appeared.
+In 2023, the global AI market size was close to $208 billion. By 2030, 
+the market size is expected to reach nearly $2 trillion, according to figures 
+provided by Statista (Figure 1.2). The size of the AI market is measured by 
+spending on hardware and services that enable firms and government depart­
+ments to develop and deploy AI applications. The AI market consists of the 
+markets for computer vision (applications that enable computers to interpret 
+and understand digital images and video data), machine learning (algorithms 
+that enable computer systems to learn from data), natural language process­
+ing (applications that enable computers to understand, interpret, and generate 
+human language), robotics and autonomous technology (machines and systems 
+that operate independently), and generative AI (used to generate content that is 
+indistinguishable from content created by humans.
+1.7	
+THE TRANSFORMATIVE AND DISRUPTIVE 
+POWER OF THE AI REVOLUTION
+A technology is disruptive if it starts by serving a niche market (a very specific 
+segment of consumers who are likely to buy a particular product) and then 
+expands to the mainstream (the average or typical consumer). Mann (2023) 
+suggests that transformation and disruption are related by arguing that “a 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+14
+disruptive technology is technology which can transform the way people and 
+businesses operate.” AI is considered to be the fourth technological revolution, 
+following the agricultural, industrial, and digital revolutions, all of which have 
+produced transformative and disruptive effects on society and the economy. 
+The agricultural revolution, which began around 10,000 BCE, marked the 
+transition from mobile communities of hunters to settled agricultural commu­
+nities. Innovations (such as the domestication of plants and animals, the inven­
+tion of the plough, and the development of irrigation systems) made it possible 
+to produce surplus food, which supported larger populations and allowed the 
+establishment of permanent settlements.
+The Industrial Revolution, which started in the eighteenth century, marked 
+a transition from agrarian to industrial economies and the emergence of urban 
+communities. Powered by advancements in steam power, mechanisation, and 
+the techniques of mass production, industries (such as textiles, manufactur­
+ing, and transportation) underwent radical transformations. The invention 
+of the steam engine, the spinning jenny, and the power loom revolutionised 
+Data source: Statista.
+Figure 1.2    World market for AI ($ billion)
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+15
+production processes, leading to unprecedented levels of productivity and eco­
+nomic growth. The Industrial Revolution also fuelled urban migration, social 
+upheaval, and the rise of capitalism, shaping the modern world in profound 
+ways. The mechanisation of agriculture in the late nineteenth century and 
+early twentieth century represents another significant technological disruption 
+because it displaced millions of farm workers, contributing to rural depopula­
+tion and migration to urban centres in search of employment opportunities.
+The digital revolution, which began in the mid-twentieth century, marked the 
+advent of computing, telecommunications, and digital technologies. A new era 
+of technological disruption began with the introduction of innovations such as 
+the personal computer, the internet, and mobile technologies, leading to a radi­
+cal transformation of communication, commerce, and entertainment. While 
+these developments allowed more efficient production techniques, they also 
+raised concerns about job displacement. Breakthroughs (such as the invention 
+of the transistor, the development of integrated circuits, and the advent of the 
+internet) transformed the way information is processed, stored, and transmit­
+ted. This wave of technological progress also allowed the rise of new indus­
+tries (such as software development, telecommunications, and e-commerce) 
+that propelled economic growth and globalisation.
+The emergence of AI represents the latest chapter in the story of techno­
+logical disruption. Technological breakthroughs have enabled AI systems to 
+perform tasks that were thought to be exclusive to human intelligence. AI is 
+transformative and disruptive because it is reshaping industries, professions, 
+and modes of work. The historical precedents of technological disruption offer 
+valuable insights into the potential implications and challenges posed by AI. 
+For example, it has led to the emergence of a new class of the super-rich, the 
+high-tech billionaires. While disruptive technologies have historically spurred 
+economic growth and prosperity, they have also exacerbated inequality, dis­
+placed traditional forms of labour, and reshaped social structures. All of these 
+characteristics are valid for AI. However, Eric Schmidt (a former CEO of 
+Google) believes that “AI is likely to be the most transformative technology of 
+our time” (Choat, 2023). In other words, this time it is different!
+AI represents a disruptive innovation that challenges existing paradigms, 
+processes, and industries because it has reshaped the way people work, commu­
+nicate, and live. AI drives economic transformation by enhancing productivity, 
+creating new industries, and fostering innovation. AI-powered applications in 
+areas such as healthcare, finance, and transportation create new opportunities 
+for growth, efficiency, and competitiveness, driving economic expansion and 
+prosperity. AI has profound social implications, including job displacement, 
+skills mismatch, and income inequality. Gruetzemacher and Whittlestone 
+(2022) examine the transformative power of AI, arguing that “transformative 
+AI” reflects “the possibility that advanced AI systems could have very large 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+The economics of artificial intelligence
+16
+impacts on society without reaching human-level cognitive abilities.” They go 
+on to distinguish among narrowly transformative AI, transformative AI, and 
+radically transformative AI.
+While comparisons between AI and previous technological revolutions 
+reveal similarities in terms of disruptive innovation, economic transformation, 
+and social impacts, AI exhibits unique characteristics, including its global 
+scale, rapid pace of change, and human-centric nature. An ongoing debate 
+centres on the power of AI to displace labour and create mass unemployment. 
+Most observers adopt the attitude of “no worries” on the grounds that new 
+technologies create more jobs than the jobs they destroy, and AI is no excep­
+tion. However, there are those who believe that this time it is different and 
+that we should start seriously thinking about how to respond to the disruptive 
+power of AI. For example, Elon Musk believes that no job is immune from the 
+effect of AI, which will make it necessary for governments to pay their citizens 
+universal basic income. We will come back to this issue and discuss it in detail 
+in Chapter 6.
+1.8	
+EVOLUTION OF AI: SUMMING UP
+The evolution of AI is characterised by waves of technological advancement, 
+each wave marking a significant milestone in the evolution of intelligent sys­
+tems. From a humble beginning in the 1950s, the field of AI has gone through 
+significant transformations, propelled by breakthroughs in computing power, 
+algorithmic innovations, and the availability of big data. We have gone through 
+a detailed chronology of the evolution of AI, starting from ancient times. In 
+this concluding section, we highlight key developments, paradigm shifts, and 
+the impact on society, the economy, and human-machine interaction. With 
+respect to paradigm shifts, Dhar (2023) summarises the evolution of AI in 
+terms of shifts from expert systems to machine learning to deep learning and 
+finally to general-purpose technology.
+The two decades of the 1950s and 1960s witnessed the first wave of AI, 
+which was rooted in symbolic logic and rule-based systems. The objective of 
+symbolic logic was to encode human knowledge and expertise to formulate 
+rules and representations that enabled computers to perform tasks involving 
+logical reasoning and problem-solving. A prominent application of symbolic 
+AI was the construction of expert systems that emulated the decision-making 
+ability of human experts in specific fields such as medicine, finance, and engi­
+neering. However, expert systems lacked the ability to learn from data or adapt 
+to new situations.
+The second wave of AI, observed in the 1980s and 1990s, is known as the 
+“connectionist revolution,” where connectionism is an approach to AI that 
+developed out of attempts to understand how the human brain works at the 
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
+
+Definition, origin and evolution
+17
+neural level—in particular, how people learn and remember. Connectionist 
+models of language resemble, in one way or another, the central nervous sys­
+tem of humans. Inspired by the structure and functioning of the human brain, 
+researchers explored the use of artificial neural networks for pattern recogni­
+tion, classification, and function approximation. Breakthroughs such as the 
+backpropagation algorithm and the development of deep learning reignited 
+interest in neural networks, paving the way for their application in speech 
+recognition, image processing, and natural language understanding. However, 
+limitations in computational resources and algorithmic scalability hindered 
+widespread adoption during this period.
+The third wave of AI began in the early twenty-first century, propelled by a 
+combination of big data, powerful computers, and advances in deep learning 
+that led to breakthroughs in image recognition, natural language processing, 
+and game playing. This wave of AI witnessed the rise of AI-driven applica­
+tions in diverse domains, including autonomous vehicles, healthcare diagnos­
+tics, and personalised recommendation systems.
+The fourth wave of AI is characterised by the integration of AI with human-
+centric technologies. For example, Internet of Things (IoT) devices enable AI 
+to operate in real time, empowering applications such as smart cities, indus­
+trial automation, and wearable devices. Furthermore, emphasis has shifted to 
+human-centric AI, where intelligent systems are designed to collaborate with 
+humans, augmenting human capabilities rather than replacing them. This wave 
+of AI also raises ethical, societal, and regulatory considerations, prompting 
+discussions on transparency, accountability, and bias mitigation. We will come 
+back to this issue in Chapter 5 when we discuss the adverse consequences of 
+AI.
+As AI continues to evolve and permeate various aspects of our lives, it is 
+essential to approach its development and deployment with caution, ensuring 
+that it serves the collective good while mitigating potential risks. By under­
+standing the historical context, conceptual frameworks, and implications of 
+AI, we can navigate its complexities and harness its transformative potential 
+for the betterment of humanity.
+Imad A. Moosa - 9781035345861
+Downloaded from https://www.elgaronline.com/ at 05/18/2026 04:41:27AM
+via free access
