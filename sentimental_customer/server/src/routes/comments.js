@@ -76,6 +76,23 @@ router.get("/saved-files/:filename", async (req, res) => {
   }
 });
 
+// ── POST /api/analyze-text (sentiment only, no wall broadcast) ──
+router.post("/analyze-text", async (req, res) => {
+  const { text } = req.body;
+
+  if (!text?.trim()) {
+    return res.status(400).json({ error: "Text is required" });
+  }
+
+  try {
+    const sentiment = await getSentiment(text.trim());
+    return res.status(200).json({ text: text.trim(), sentiment });
+  } catch (err) {
+    console.error("❌ Analyze-text error:", err.message);
+    return res.status(503).json({ error: "Sentiment service unavailable" });
+  }
+});
+
 // ── POST /api/comment ────────────────────────────────────
 router.post("/comment", async (req, res) => {
   const { author, text } = req.body;
@@ -198,6 +215,46 @@ router.post("/upload-voice", audioUpload.single("audio"), async (req, res) => {
         : err.message)
       ?? "Voice analysis failed";
     console.error("❌ Voice analysis error:", message, err.message);
+    return res.status(status >= 400 && status < 600 ? status : 503).json({ error: message });
+  }
+});
+
+// ── POST /api/transcribe-voice-stream (SSE) ──────────────
+router.post("/transcribe-voice-stream", audioUpload.single("audio"), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: "No audio provided" });
+  }
+
+  try {
+    const form = new FormData();
+    form.append("audio", req.file.buffer, {
+      filename:    req.file.originalname,
+      contentType: req.file.mimetype,
+    });
+
+    const response = await axios.post(
+      `${PYTHON_URL}/transcribe-voice-stream`,
+      form,
+      {
+        headers:      form.getHeaders(),
+        responseType: "stream",
+        timeout:      120000,
+      }
+    );
+
+    res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("Cache-Control", "no-cache");
+    res.setHeader("Connection", "keep-alive");
+    response.data.pipe(res);
+  } catch (err) {
+    const status  = err.response?.status ?? 503;
+    const message =
+      err.response?.data?.error
+      ?? (err.code === "ECONNREFUSED"
+        ? "Python sentiment service is not running on port 5001"
+        : err.message)
+      ?? "Transcription failed";
+    console.error("❌ Voice stream error:", message, err.message);
     return res.status(status >= 400 && status < 600 ? status : 503).json({ error: message });
   }
 });

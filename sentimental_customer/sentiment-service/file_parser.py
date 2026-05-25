@@ -118,9 +118,19 @@ def split_into_chunks(text: str, max_chars: int = 500) -> list[str]:
 
 model = WhisperModel("base", device="cpu", compute_type="int8")
 
+
 def speech_to_text(audio_path):
-    segments, info = model.transcribe(audio_path)
+    segments, _info = model.transcribe(audio_path)
     text = ""
     for segment in segments:
         text += segment.text
     return text.strip()
+
+
+def speech_to_text_segments(audio_path):
+    """Yield transcript pieces as Whisper finishes each segment."""
+    segments, _info = model.transcribe(audio_path)
+    for segment in segments:
+        piece = (segment.text or "").strip()
+        if piece:
+            yield piece
